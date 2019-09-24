@@ -65,3 +65,19 @@ img{
 .clear {
   clear:both;
 }
+
+/* sezione responsive */
+@media screen and (max-width: 420px){
+  .row{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 100%;
+
+  }
+
+}
