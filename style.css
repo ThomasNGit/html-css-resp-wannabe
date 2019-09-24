@@ -81,3 +81,12 @@ img{
   }
 
 }
+
+/* responsive sezione steps */
+@media screen and (max-width: 420px){
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 100%;
+  }
+}
